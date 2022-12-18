@@ -9,7 +9,7 @@ export default function Home() {
         <title>Distr</title>
       </Head>
       <Header active="/" />
-      <img src="/example.png" class="w-[70%] h-[70%]" />
+      <img src="/chart" class="w-[70%] h-[70%]" />
       <Input />
     </>
   );

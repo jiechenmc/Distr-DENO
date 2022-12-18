@@ -1,4 +1,5 @@
 import IconReportAnalytics from "https://deno.land/x/tabler_icons_tsx@0.0.1/tsx/report-analytics.tsx";
+
 type Props = {
   active: string;
 };
@@ -6,8 +7,8 @@ type Props = {
 export default function Header({ active }: Props) {
   const menus = [
     { name: "Home", href: "/" },
-    { name: "Components", href: "/components" },
-    { name: "Docs", href: "/docs" },
+    // { name: "Components", href: "/components" },
+    // { name: "Docs", href: "/docs" },
   ];
 
   return (
